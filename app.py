@@ -18,9 +18,9 @@ config = Configuration(access_token=os.environ["CHANNEL_ACCESS_TOKEN"])
 BASE_URL = os.environ.get("BASE_URL", "https://example.onrender.com")
 IMAGE_URL = f"{BASE_URL}/static/pic.jpg"
 
-COUNT = 10        # 送る枚数
-INTERVAL = 0.5    # 送信間隔(秒)。エラーが出たら大きくする
-TRIGGER = "画像"   # このメッセージを受け取ったら送信開始
+COUNT = 20        # 送る枚数
+INTERVAL = 0.1    # 送信間隔(秒)。エラーが出たら大きくする
+TRIGGER = "稲泉"   # このメッセージを受け取ったら送信開始
 
 
 def make_img():
